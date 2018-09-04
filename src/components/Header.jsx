@@ -3,8 +3,8 @@ import { NavLink as RRNavLink } from 'react-router-dom';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 
 const Header = (props) => (
-  <header>
-    <h1>The Amazing React Tec</h1>
+  <header className="header">
+    
     <Nav pills>
       <NavItem>
         <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
