@@ -1,0 +1,34 @@
+
+
+[
+  {
+    "title": "Swimming Pools",
+    "description": "Hackaton DCI Project",
+    "thumbnailUrl": "/images/swimming-pool.jpeg",
+    "projectUrl": "",
+    "tags": ["css", "html"]
+  },
+
+  {
+    "title": "Guessing Game",
+    "description": "Small game to guess a number",
+    "thumbnailUrl": "/images/gussing.jpg",
+    "projectUrl": "https://github.com/WebUp-dci-fbw7/guessing-game-itch",
+    "tags": ["html", "bootstrap", "css", "javascript"]
+  },
+
+  {
+    "title": "Meiningen City",
+    "description": "A Natur City East of Germany",
+    "thumbnailUrl": "/images/natur.jpeg",
+    "tags": ["html", "css"]
+  },
+
+    {
+    "title": "Counter-Redux",
+    "description": "Hearts Counter, based on React-Redux",
+    "thumbnailUrl": "/images/red-heart.jpeg",
+    "projectUrl": "https://github.com/WebUp-dci-fbw7/clock-component",
+    "tags": ["jsx", "react-redux", "javascript"]
+  }
+]
