@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 
-import bewer from '../images/bewer.jpg';
+import bewer from '../img/bewer.jpg';
 
 class About extends Component{
   componentDidMount(){
@@ -19,7 +19,7 @@ class About extends Component{
      <section>
        <h2>27/11/2017, DCI Berlin</h2>
        <div>
-         <p className="lead">11/2001 – 12/2003 Course in Networks field, UNRWA Projekt, Damaskus 06/2001, Graduated from high school with a high school diploma</p>
+         <p className="lead">2001–2003 Cisco Networks, <br/>Damaskus 06/2001, Graduated with high school diploma</p>
        </div>
      </section>
      <section>

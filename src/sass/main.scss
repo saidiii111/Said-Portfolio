@@ -5,6 +5,28 @@
   margin-top: 1.5rem;
 }
 
-.header {
-  background: #6f42c1;
+// nav bar
+
+body{
+  background: #fff;
+}
+.hom-img{
+  top: 3em;
+  border-radius: 50%;
+}
+/* styling h1 in Home views*/
+.container {
+    position: relative;
+}
+
+.text-block {
+  font-style: oblique;
+    position: absolute;
+    top: 3em;
+    left: 18em;
+    border-radius: 70%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }

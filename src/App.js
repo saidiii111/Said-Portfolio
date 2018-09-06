@@ -16,7 +16,6 @@ class App extends Component {
     return (
         <BrowserRouter>
           <Fragment>
-           <h1 className="App-title">Welcome to Said Website</h1>
             <Header />
                <main>
                   <Switch>

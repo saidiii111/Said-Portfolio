@@ -8,7 +8,6 @@ import {
   Card,
   CardTitle,
   CardBody,
-  Button,
   Badge
 } from 'reactstrap';
 
