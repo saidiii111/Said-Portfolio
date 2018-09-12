@@ -30,18 +30,32 @@ body {
   top: 10%;
   letter-spacing: 3px;
 }
-/* Container holding the image and the text */
-// .container {
-//     position: relative;
-// }
-//
-// /* Bottom right text */
-// .text-block {
-//     position: absolute;
-//     bottom: 20px;
-//     right: 20px;
-//     background-color: black;
-//     color: white;
-//     padding-left: 20px;
-//     padding-right: 20px;
-// }
+
+.copyright{
+  color: #571ede;
+}
+
+.icon{
+  padding: 40px 0;
+  color: #571ede;
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+.fb:hover {
+  color: #3B5998;
+  transform:scale(1.2);
+}
+
+.gh:hover {
+  color: #d34836;
+  transform:scale(1.2);
+}
+
+.in:hover {
+  color: #f39c12;
+  transform:scale(1.2);
+}

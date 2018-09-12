@@ -15,7 +15,7 @@ class Home extends Component {
     return(
       <Fragment>
         <div className="box">
-          <img className="img-responsive" src={beach} alt="beach" />
+          <img className="img-responsive" src={beach} alt="beach" width="100%" />
            <div className="img-title">
              <h1 className="display-4">Hello, I'm Said!</h1>
               <h4>Front-End  DEV | Open-Sources Enthusiast </h4>
