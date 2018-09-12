@@ -2,18 +2,20 @@ import React, {Component, Fragment} from 'react';
 
 class Colors extends Component {
   componentDidMount(){
-    document.title = 'Home Said\'s Portfolie';
+    document.title = 'Colors Said\'s Portfolie';
   }
 
   render(){
     return(
       <Fragment>
-        <div class="color-background">
-        	<div class="color-me">
-        		<p>
+        <div className="color-background">
+        	<div className="color-me">
+        		<h2>
         			study with us
-        		</p>
+        		</h2>
+            <h1>
         		DCI-BERLIN
+            </h1>
         	</div>
         </div>
       </Fragment>

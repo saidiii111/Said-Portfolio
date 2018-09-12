@@ -17,6 +17,9 @@ const Header = (props) => (
           </NavItem>
           <NavItem>
             <NavLink exact to="/contact" activeClassName="active" tag={RRNavLink}>Contact</NavLink>
+            <NavItem>
+              <NavLink exact to="/colors" activeClassName="active" tag={RRNavLink}>Colors</NavLink>
+            </NavItem>
           </NavItem>
     </Nav>
   </header>
