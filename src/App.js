@@ -6,6 +6,7 @@ import About from './views/About';
 import Error from './views/Error';
 import Contact from './views/Contact';
 import Projects from './views/Projects';
+import Colors from './views/Colors';
 import SingleProject from './views/SingleProject';
 
 import Header from './components/Header';
@@ -24,6 +25,7 @@ class App extends Component {
                     <Route exact path="/projects" component={Projects} />
                     <Route path="/projects/:id" component={SingleProject} />
                     <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/colors" component={Colors} />
                     <Route component={Error} />
                   </Switch>
                </main>
