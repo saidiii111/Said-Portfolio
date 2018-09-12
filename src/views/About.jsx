@@ -12,13 +12,13 @@ class About extends Component{
   <Fragment>
       <main className="ml-3">
         <div className="box">
-          <img className="img-responsive" src={beachCloud} alt="beachCloud" />
+          <img className="img-responsive" src={beachCloud} alt="beachCloud" width="100%" height="1222em"/>
            <div className="img-title">
     <section>
        <h1>My Résumé</h1>
        <dt> Name</dt>
-       <dd className="lead">Said SAGHIR</dd>
-       <img className="d-inline  rounded-circle" src={bewer} alt="Said" width="150" height="200" />
+       <h2 className="lead">Said SAGHIR</h2>
+       <img className="d-inline  rounded-circle" src={bewer} alt="Said" width="150" height="150" />
      </section>
      <section>
        <h2>27/11/2017, DCI Berlin</h2>
@@ -42,7 +42,7 @@ class About extends Component{
        <dd> Good</dd>
        <dt>English</dt>
        <dd>Good</dd>
-       <h4> Berlin, 03.09.2018 Said Saghir</h4>
+       <h4> Berlin, 12.09.2018 Said Saghir</h4>
      </section>
    </div>
    </div>

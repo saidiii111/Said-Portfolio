@@ -10,11 +10,11 @@ class Colors extends Component {
       <Fragment>
         <div className="color-background">
         	<div className="color-me">
-        		<h2>
-        			study with us
-        		</h2>
+        		<h1>
+        			Study with us DCI-BERLIN
+        		</h1>
             <h1>
-        		DCI-BERLIN
+        		Thanks Itamar for a Great Year :)
             </h1>
         	</div>
         </div>

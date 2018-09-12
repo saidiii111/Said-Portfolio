@@ -9,24 +9,25 @@ class Home extends Component {
     document.title = 'Home Said\'s Portfolie';
   }
 
-
-
   render(){
     return(
       <Fragment>
-        <div className="box">
-          <img className="img-responsive" src={beach} alt="beach" width="100%" />
-           <div className="img-title">
-             <h1 className="display-4">Hello, I'm Said!</h1>
-              <h2>Front-End  DEV | Open-Sources Enthusiast </h2>
-              <h3>MY IT SKILLS</h3>
-              <dt>Java Skript</dt>
-              <dd>CSS3</dd>
-              <dt>React</dt>
-              <dd>and more...</dd>
-           </div>
+        <div className="row">
+          <div className="col-sm">
+            <img className="img-responsive" src={beach} alt="beach" width="100%" height="150%" />
+             <div className="img-title">
+               <div className="ml-0">
+               <h1 className="display-4">Hello, I'm Said!</h1>
+                <h2>Front-End  DEV | Open-Sources Enthusiast </h2>
+                <h3>MY IT SKILLS</h3>
+                <dt>Java Skript</dt>
+                <dd>CSS3</dd>
+                <dt>React</dt>
+                <dd>and more...</dd>
+             </div>
+             </div>
+          </div>
         </div>
-
       </Fragment>
     );
   }
