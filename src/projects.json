@@ -2,6 +2,7 @@
   {
     "title": "Swimming Pools",
     "description": "Hackaton DCI Project",
+    "imageUrl": "/images/swimming-pool.jpeg",
     "thumbnailUrl": "/images/swimming-pool.jpeg",
     "projectUrl": "",
     "tags": ["css", "html"]
@@ -19,16 +20,18 @@
   {
     "title": "Meiningen City",
     "description": "A Natur City, East of Germany",
+    "imageUrl": "/images/natur.jpeg",
     "thumbnailUrl": "/images/natur.jpeg",
+    "projectUrl": "",
     "tags": ["html", "css"]
   },
 
     {
     "title": "Counter-Redux",
     "description": "Hearts Counter, based on React-Redux",
-    "imageUrl": "https://via.placeholder.com/800x600",
+    "imageUrl": "/images/red-heart.jpeg",
     "thumbnailUrl": "/images/red-heart.jpeg",
-    "projectUrl": "https://github.com/WebUp-dci-fbw7/clock-component",
+    "projectUrl": "",
     "tags": ["jsx", "react-redux", "javascript"]
   }
 ]

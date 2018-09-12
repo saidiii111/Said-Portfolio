@@ -18,14 +18,14 @@ class SingleProject extends Component {
     return (
       <Fragment>
         <h2>{project.title}</h2>
-        <img className="img-fluid" width="30%" src={project.imageUrl} alt={project.title}/>
+        <img className="img-fluid" width="40%" src={project.imageUrl} alt={project.title}/>
         <p>{project.description}</p>
         <div className="tags">
           {project.tags.map(tag => (
             <Badge key={tag} color="primary" pill>{tag}</Badge>
           ))}
         </div>
-        <a href={project.projectUrl}>Click it!</a>
+        <a href={project.projectUrl}>Click here!</a>
     </Fragment>
     )
   }
