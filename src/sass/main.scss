@@ -5,28 +5,42 @@
   margin-top: 1.5rem;
 }
 
-// nav bar
-
-body{
-  background: #fff;
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+body {
+  font-family: 'Chicle', cursive;
+  font-size: 20px;
+  background: #a5eec5;
+  // background: #73ecff;
 }
-.hom-img{
-  top: 3em;
-  border-radius: 50%;
-}
-/* styling h1 in Home views*/
-.container {
-    position: relative;
+.header{
+  font-size: 24px;
 }
 
-.text-block {
-  font-style: oblique;
-    position: absolute;
-    top: 3em;
-    left: 18em;
-    border-radius: 70%;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+.box{
+  position: relative;
 }
+
+.img-title{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 10%;
+  letter-spacing: 3px;
+}
+/* Container holding the image and the text */
+// .container {
+//     position: relative;
+// }
+//
+// /* Bottom right text */
+// .text-block {
+//     position: absolute;
+//     bottom: 20px;
+//     right: 20px;
+//     background-color: black;
+//     color: white;
+//     padding-left: 20px;
+//     padding-right: 20px;
+// }

@@ -5,7 +5,7 @@ import { Nav, NavItem, NavLink } from 'reactstrap';
 const Header = (props) => (
   <header className="header">
 
-    <Nav className="justify-content-center" pills>
+    <Nav className="justify-content-center mt-1 mb-3 header" pills>
           <NavItem>
             <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
           </NavItem>

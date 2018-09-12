@@ -18,7 +18,7 @@ class Projects extends Component {
   }
   render(){
     return(
-      <CardDeck>
+      <CardDeck className="mt-5">
         {projects.map((project, i) => (
           <Card key={i}>
             <CardBody>

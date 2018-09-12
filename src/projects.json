@@ -1,5 +1,3 @@
-
-
 [
   {
     "title": "Swimming Pools",
@@ -10,16 +8,17 @@
   },
 
   {
-    "title": "Guessing Game",
+    "title": "Guessing Number",
     "description": "Small game to guess a number",
+    "imageUrl": "/images/gussing.jpg",
     "thumbnailUrl": "/images/gussing.jpg",
-    "projectUrl": "https://github.com/WebUp-dci-fbw7/guessing-game-itch",
-    "tags": ["html", "bootstrap", "css", "javascript"]
+    "projectUrl": "https://github.com/saidiii111/guessing-NR",
+    "tags": ["html", "bootstrap", "css"]
   },
 
   {
     "title": "Meiningen City",
-    "description": "A Natur City East of Germany",
+    "description": "A Natur City, East of Germany",
     "thumbnailUrl": "/images/natur.jpeg",
     "tags": ["html", "css"]
   },
@@ -27,6 +26,7 @@
     {
     "title": "Counter-Redux",
     "description": "Hearts Counter, based on React-Redux",
+    "imageUrl": "https://via.placeholder.com/800x600",
     "thumbnailUrl": "/images/red-heart.jpeg",
     "projectUrl": "https://github.com/WebUp-dci-fbw7/clock-component",
     "tags": ["jsx", "react-redux", "javascript"]

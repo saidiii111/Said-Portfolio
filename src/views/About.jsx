@@ -9,7 +9,7 @@ class About extends Component{
   render(){
     return(
   <Fragment>
-      <main >
+      <main className="ml-3">
     <section>
        <h1>My Résumé:</h1>
        <dt> Name:</dt>
