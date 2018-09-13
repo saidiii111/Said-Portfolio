@@ -9,19 +9,23 @@ const Header = (props) => (
           <NavItem className="navitem">
             <NavLink exact to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
           </NavItem>
+
           <NavItem className="navitem">
             <NavLink exact to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
           </NavItem>
+
           <NavItem className="navitem">
             <NavLink exact to="/projects" activeClassName="active" tag={RRNavLink}>Projects</NavLink>
           </NavItem>
-          <NavItem className="navitem">
 
-            <NavLink exact to="/contact" activeClassName="active" tag={RRNavLink}>Contact</NavLink>
+          <NavItem className="navitem">
+          <NavLink exact to="/contact" activeClassName="active" tag={RRNavLink}>Contact</NavLink>
+          </NavItem>
+
             <NavItem className="navitem">
               <NavLink exact to="/colors" activeClassName="active" tag={RRNavLink}>Colors</NavLink>
             </NavItem>
-          </NavItem>
+
     </Nav>
   </header>
 
