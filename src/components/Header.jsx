@@ -16,7 +16,7 @@ const Header = (props) => (
             <NavLink exact to="/projects" activeClassName="active" tag={RRNavLink}>Projects</NavLink>
           </NavItem>
           <NavItem className="navitem">
-          
+
             <NavLink exact to="/contact" activeClassName="active" tag={RRNavLink}>Contact</NavLink>
             <NavItem className="navitem">
               <NavLink exact to="/colors" activeClassName="active" tag={RRNavLink}>Colors</NavLink>

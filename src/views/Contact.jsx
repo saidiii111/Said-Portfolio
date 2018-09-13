@@ -10,7 +10,8 @@ class Contact extends Component{
     return(
       <Fragment>
 
-      <section id="contactMe" className="text-center mt-5">
+      <form action="https://formspree.io/alsaghir.said@gmail.com"
+            method="POST" id="contactMe" className="text-center mt-5">
        <h1 className="separa-20 fontsize-50 colorblanco">Contact me</h1>
 
         <div className="row margin-0">
@@ -23,7 +24,7 @@ class Contact extends Component{
           <label>Email : </label>
           <input type="text" name="Name" placeholder=" type your E-mail"/>
           <div className="well"></div>
-          <textarea name="name" rows="8" cols="80" placeholder="type your messege"></textarea>
+          <textarea name="message" rows="8" cols="55" placeholder="type your messege"></textarea>
           <button className="btn btn-primary mb-5 btn-block">Send</button>
         </div>
       </div>
@@ -31,7 +32,7 @@ class Contact extends Component{
 
       <img className="" src={contact}  alt="keyboard" width="900" height="500"/>
 
-    </section>
+    </form>
 
       </Fragment>
     );
